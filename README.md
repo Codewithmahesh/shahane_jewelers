@@ -19,24 +19,6 @@ A sleek and responsive website for **Shahane Jewelers**, built with **Next.js** 
 
 ---
 
-## 📁 Folder Structure (Initial)
-
-shahane_jewelers/
-├── pages/           
-│   └── index.tsx
-├── components/      
-│   └── Navbar.tsx
-├── public/          
-│   └── logo.png
-├── styles/         
-│   └── globals.css
-├── .gitignore
-├── package.json
-└── README.md
-
-
----
-
 ## ✨ Features (Planned)
 
 - 🛍️ Jewelry product gallery
