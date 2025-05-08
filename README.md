@@ -1,6 +1,6 @@
 # 💎 Shahane Jewelers
 
-A sleek and responsive website for **Shahane Jewelers**, built with **Next.js** to showcase timeless jewelry collections and provide a digital presence for a trusted local brand.
+A sleek and responsive website for **Shahane Jewelers**, built with **Next.js** to showcase timeless jewelry collections.
 
 ---
 
