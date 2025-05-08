@@ -22,13 +22,13 @@ A sleek and responsive website for **Shahane Jewelers**, built with **Next.js** 
 ## 📁 Folder Structure (Initial)
 
 shahane_jewelers/
-├── pages/           # App routes
+├── pages/           
 │   └── index.tsx
-├── components/      # Reusable components
+├── components/      
 │   └── Navbar.tsx
-├── public/          # Static assets (images, icons)
+├── public/          
 │   └── logo.png
-├── styles/          # Custom styles (if any)
+├── styles/         
 │   └── globals.css
 ├── .gitignore
 ├── package.json
