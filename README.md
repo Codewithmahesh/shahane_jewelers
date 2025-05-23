@@ -32,7 +32,7 @@ A sleek and responsive website for **Shahane Jewelers**, built with **Next.js** 
 ## 📌 Roadmap
 
 - [x] Set up Next.js project
-- [ ] Design homepage layout
+- [x] Design homepage layout
 - [ ] Create product card component
 - [ ] Add image gallery
 - [ ] Connect contact form
