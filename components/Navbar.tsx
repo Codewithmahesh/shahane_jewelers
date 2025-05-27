@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between px-6 py-3">
         {/* Hamburger Menu */}
         <div className="flex items-center">
-          <HiMenuAlt1 size={32} className="text-white" />
+          <HiMenuAlt1 size={50} className="text-white" />
         </div>
 
         {/* Logo */}
@@ -28,14 +28,14 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
           {/* Location */}
           <div className="flex items-center gap-2 border-2 border-white px-3 py-2 rounded-xl">
-            <HiOutlineLocationMarker size={18} className="text-white" />
-            <span className="text-white text-sm font-medium">Nanded, Maharashtra</span>
+            <HiOutlineLocationMarker size={30} className="text-white" />
+            <span className="text-white text-lg font-medium">Nanded, Maharashtra</span>
           </div>
 
           {/* Heart and User */}
           <div className="flex items-center gap-3 px-3 py-2">
-            <FaHeart size={24} className="text-amber-500 hover:scale-110 transition" />
-            <FaRegUser size={24} className="text-white hover:scale-110 transition" />
+            <FaHeart size={34} className="text-amber-500 hover:scale-110 transition" />
+            <FaRegUser size={34} className="text-white hover:scale-110 transition" />
           </div>
         </div>
       </div>
@@ -43,10 +43,10 @@ const Navbar = () => {
       {/* Nav Links with Underline on Hover */}
       <div className="navlinks flex justify-center">
         <ul className="flex items-center gap-10 py-4">
-          {['Home', 'About', 'Services', 'Contact'].map((item) => (
+          {['Home', 'Catalog', 'Rate', 'About', 'Contact'].map((item) => (
             <li
               key={item}
-              className="relative text-white text-xl font-serif cursor-pointer 
+              className="relative text-white text-[25px] font-serif cursor-pointer 
                          before:content-[''] before:absolute before:-bottom-1 before:left-0 
                          before:h-[2px] before:w-0 before:bg-white 
                          hover:before:w-full before:transition-all before:duration-300"

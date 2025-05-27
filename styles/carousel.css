@@ -1,0 +1,20 @@
+.carousel .control-dots {
+  display: flex;
+  justify-content: center;
+  position: relative;  /* ⬅ Important: overrides default absolute */
+  margin-top: 1rem;     /* Adds spacing below carousel */
+  bottom: 0 !important; /* Removes any default 'bottom' offset */
+}
+
+.carousel .control-dots .dot {
+  width: 40px;
+  height: 4px;
+  margin: 0 5px;
+  border-radius: 0;
+  background: #d1d5db; /* gray-300 */
+  transition: all 0.3s ease;
+}
+
+.carousel .control-dots .dot.selected {
+  background: #000;
+}
