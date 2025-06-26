@@ -20,41 +20,59 @@
           </div>
         </div>
 
-        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
-          {/* Logo and App Section */}
-          <div className="flex flex-col items-start w-full md:w-1/3 mt-6 md:mt-0">
-            <div className="h-[60px]" /> 
-            <Image src={qr} alt="QR" width={140} height={140} />
-            <p className="mt-2">Download App</p>
-            <div className="flex items-center gap-2 mt-2">
-              <Image src={playStore} alt="Play Store" width={60} height={40} />
-              <Image src={appStore} alt="App Store" width={62} height={40} />
+    <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
+      {/* Logo and App Section */}
+      <div className="flex  items-start w-full md:w-1/3 mt-6 md:mt-0">
+        
+        <div className="h-full flex flex-col  items-center justify-center"> 
+          <Image src={qr} alt="QR" width={200} height={200} />
+          <p className="mt-2 text-2xl ">Download App</p>
+        </div>
+
+        <div className="flex flex-col items-center gap-6 mt-10">
+          {/* Play Store Button */}
+          <div className="flex items-center px-4 py-2 bg-[#7c0606] text-white rounded-lg shadow-md border-2 border-white">
+            <Image src={playStore} alt="Play Store" width={35} height={35} />
+            <div className="ml-3 leading-tight">
+              <p className="text-sm font-light">Download on</p>
+              <p className="text-base font-semibold">Play Store</p>
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div className="w-full md:w-1/3 mt-6 md:mt-0">
-            <h3 className="text-xl font-bold mb-2">Quick Links</h3>
-            <ul className="space-y-1 text-[17px]">
-              <li>Collection</li>
-              <li>Catalog</li>
-              <li>Gold rate</li>
-              <li>About</li>
-              <li>Contact Us</li>
-            </ul>
-          </div>
-
-          {/* Services */}
-          <div className="w-full md:w-1/3 mt-6 md:mt-0">
-            <h3 className="text-xl font-bold mb-2">Services</h3>
-            <ul className="space-y-1 text-[17px]">
-              <li>Custom Jewelery Design</li>
-              <li>Jewelry Restore & Repair</li>
-              <li>916 HallMarking</li>
-              <li>Exchange Program</li>
-            </ul>
+          {/* App Store Button */}
+          <div className="flex items-center px-4 py-2 bg-[#7c0606] text-white rounded-lg shadow-md border-2 border-white">
+            <Image src={appStore} alt="App Store" width={35} height={35} />
+            <div className="ml-3 leading-tight">
+              <p className="text-sm font-light">Download on</p>
+              <p className="text-base font-semibold">App Store</p>
+            </div>
           </div>
         </div>
+      </div>
+
+      {/* Quick Links */}
+      <div className="w-full md:w-1/3 mt-6 md:mt-0">
+        <h3 className="text-xl font-bold mb-2">Quick Links</h3>
+        <ul className="space-y-1 text-[17px]">
+          <li>Collection</li>
+          <li>Catalog</li>
+          <li>Gold rate</li>
+          <li>About</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+
+      {/* Services */}
+      <div className="w-full md:w-1/3 mt-6 md:mt-0">
+        <h3 className="text-xl font-bold mb-2">Services</h3>
+        <ul className="space-y-1 text-[17px]">
+          <li>Custom Jewelery Design</li>
+          <li>Jewelry Restore & Repair</li>
+          <li>916 HallMarking</li>
+          <li>Exchange Program</li>
+        </ul>
+      </div>
+    </div>
 
         {/* Bottom Text */}
         <div className="border-t border-white mt-6 pt-4 text-center text-sm">

@@ -9,7 +9,7 @@ const lora = Lora({
   display: 'swap',
 });
 
-const GoldRate = () => { 
+const GoldRate = ({ id }: { id: string }) => { 
 
   const rate = [
      {
@@ -36,7 +36,7 @@ const GoldRate = () => {
   ]
 
   return (
-    <div className='py-7 flex flex-col items-center justify-center'>
+    <div id={id} className='py-7 flex flex-col items-center justify-center'>
       {/* heading */}
       <div className="flex flex-col items-center justify-center  mt-4 mb-2 px-4 
       text-black py-2">

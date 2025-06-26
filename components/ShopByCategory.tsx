@@ -151,7 +151,9 @@ const products = [
   },
 ];
 
-const ShopByCategory = () => {
+const ShopByCategory = (
+  { id }: { id: string }
+) => {
   const [activeCategory, setActiveCategory] = useState('Bangle');
 
   // Filter products by active category
@@ -160,7 +162,7 @@ const ShopByCategory = () => {
   );
 
   return (
-    <div className="w-full py-14 bg-gradient-to-b from-[#A28257] to-white rounded-md shadow-inner">
+    <div id={id} className="w-full py-14 bg-gradient-to-b from-[#A28257] to-white rounded-md shadow-inner">
       {/* Header */}
       <div className="text-center mb-8">
         <h2 className="text-[40px] md:text-[40px] font-serif text-[#4d2e00]">Shop by Category</h2>

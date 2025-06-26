@@ -16,12 +16,12 @@ export default function Home() {
        </div>
 
         {/* <div className=""> */}
-          <GoldRate/>
+          <GoldRate  id="Rate" />
         {/* </div>    */}
         <Explore/>
-        <ShopByCategory/>
-        <About/> 
-        <VisitShowroom/>
+        <ShopByCategory id="Catalog" />
+        <About id="About" /> 
+        <VisitShowroom id="Contact" />
       </div>
     </>
   );

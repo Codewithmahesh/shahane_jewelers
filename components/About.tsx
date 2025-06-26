@@ -44,9 +44,11 @@ const owners = [
   },
 ];
 
-const About = () => {
+const About = ({ id }: { id: string }
+
+) => {
   return (
-    <div className="py-16 bg-white text-center font-['Cormorant_Garamond']">
+    <div id={id} className="py-16 bg-white text-center font-['Cormorant_Garamond']">
       {/* Assure Section */}
       <h2 className="text-6xl md:text-4xl text-black font-semibold mb-2">We Assure Since 1999</h2>
       <p className="text-gray-700 italic mb-8 text-[16px]">
