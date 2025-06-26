@@ -28,14 +28,14 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
           {/* Location */}
           <div className="flex items-center gap-2 border-2 border-white px-3 py-2 rounded-xl">
-            <HiOutlineLocationMarker size={30} className="text-white" />
+            <HiOutlineLocationMarker size={20} className="text-white" />
             <span className="text-white text-lg font-medium">Nanded, Maharashtra</span>
           </div>
 
           {/* Heart and User */}
           <div className="flex items-center gap-3 px-3 py-2">
-            <FaHeart size={34} className="text-amber-500 hover:scale-110 transition" />
-            <FaRegUser size={34} className="text-white hover:scale-110 transition" />
+            <FaHeart size={28} className="text-amber-500 hover:scale-110 transition" />
+            <FaRegUser size={28} className="text-white hover:scale-110 transition" />
           </div>
         </div>
       </div>

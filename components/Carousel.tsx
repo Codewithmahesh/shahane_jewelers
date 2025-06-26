@@ -31,7 +31,7 @@ const DemoCarousel = () => {
             <img
               src={item.src}
               alt={item.alt}
-              className="object-cover w-full h-full "
+              className="object-cover w-full h-156 "
               draggable={false}
             />
           </div>
