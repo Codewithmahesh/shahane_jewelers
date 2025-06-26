@@ -3,10 +3,10 @@ import React from 'react';
 import Image from 'next/image';
 
 // Icons
-import exchangeIcon from '@/public/assets/images/Group17.png';
+import exchangeIcon from '@/public/assets/images/Group20.png';
 import craftsmanshipIcon from '@/public/assets/images/Group18.png';
 import purityIcon from '@/public/assets/images/Group19.png';
-import transparencyIcon from '@/public/assets/images/Group20.png';
+import transparencyIcon from '@/public/assets/images/Group17.png';
 
 // Member Photos (replace with real paths if available)
 // import shaileshImg from '@/public/assets/images/shailesh.png';
@@ -15,19 +15,19 @@ import transparencyIcon from '@/public/assets/images/Group20.png';
 const assurancePoints = [
   {
     icon: exchangeIcon,
-    title: 'Easy Exchange',
+    // title: 'Easy Exchange',
   },
   {
     icon: craftsmanshipIcon,
-    title: 'Quality Craftsmanship',
+    // title: 'Quality Craftsmanship',
   },
   {
     icon: purityIcon,
-    title: 'Purity Guarantee',
+    // title: 'Purity Guarantee',
   },
   {
     icon: transparencyIcon,
-    title: 'Complete Transparency',
+    // title: 'Complete Transparency',
   },
 ];
 
@@ -58,10 +58,10 @@ const About = () => {
       <div className="flex flex-wrap justify-center gap-20 mt-10 px-4 max-w-6xl mx-auto">
         {assurancePoints.map((item, index) => (
           <div key={index} className="flex flex-col items-center">
-            <div className="flex items-center justify-center mt-10 shadow-md">
-              <Image src={item.icon} alt={item.title} width={180} height={180} />
+            <div className="flex items-center justify-center ">
+              <Image src={item.icon} alt={""} width={180} height={180} />
             </div>
-            <p className="mt-4 text-[18px] text-[#6b4b22]">{item.title}</p>
+            {/* <p className="mt-4 text-[18px] text-[#6b4b22]">{item.title}</p> */}
           </div>
         ))}
       </div>
@@ -74,7 +74,7 @@ const About = () => {
           “At Shahane Jewellers, we've always strived to offer the finest and purest ornaments our customers seek.
           With over 25 years of legacy, we take pride in serving generations of loyal customers — many of whom have
           been with us since the beginning. Our goal has always been to create a memorable experience through jewelry
-          that speaks to the heart. Today, we’re honored to be not just a jeweller, but a beloved part of their story”
+          that speaks to the heart. Today, we’re honored to be not just a jeweller, but a beloved part of their story.”
         </p>
       </div>
 
